@@ -1,0 +1,246 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100vh;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url('./images/bg-pattern-top-desktop.svg'),url('./images/bg-pattern-bottom-desktop.svg');
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+h1 {
+    margin-top: 70px;
+    margin-left: 95px;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+}
+
+section p {
+    margin-top: 25px;
+    margin-left: 95px;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 20px;
+    color: hsl(303, 10%, 53%);
+    font-weight: 500;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+section {
+    flex: 50%;
+}
+
+.stars {
+    flex: 50%;
+    margin-top: 70px;
+}
+
+span {
+    display: inline;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    
+    
+
+}
+
+.review {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 15px;
+    background-color: hsl(300, 24%, 96%);
+    text-align: center;
+    width: 25em;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.guru {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 15px;
+    background-color: hsl(300, 24%, 96%);
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 29px;
+    width: 27em;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.besttech {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 15px;
+    background-color: hsl(300, 24%, 96%);
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 80px;
+    width: 25em;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+article img {
+    border-radius: 50%;
+    width: 45px;
+    margin: 25px 0px 20px 25px;
+}
+
+article {
+    display: flex;
+}
+
+article p {
+   font-family: 'League Spartan', sans-serif;
+   font-size: 15px;
+   
+   
+}
+
+h3 {
+    display: inline;
+    position: absolute;
+    margin-top: 30px;
+    padding-left: 25px;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+
+h4 {
+    position: relative;
+    display: inline;
+    padding-left: 25px;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: hsl(333, 80%, 67%);
+    bottom: 25px;
+   
+}
+
+.smith {
+    width: 20rem;
+    height: 14rem;
+    margin-left: 95px;
+    margin-top: 30px;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+
+}
+
+.smith p {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.5em;
+    text-align: center;
+    color: hsl(300, 24%, 96%);
+}
+
+.roberts {
+    width: 20rem;
+    height: 14rem;
+    margin-left: 40px;
+    margin-top: 60px;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+}
+.roberts p {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.5em;
+    text-align: center;
+    color: hsl(300, 24%, 96%);
+}
+
+.wallace {
+    width: 20rem;
+    height: 14rem;
+    margin-left: 40px;
+    margin-top: 90px;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px
+}
+
+.wallace p {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.5em;
+    text-align: center;
+    color: hsl(300, 24%, 96%);
+}
+
+@media screen and (max-width:768px){
+    section {
+        text-align: center;  
+    }
+
+    .stars {
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+
+    span {
+        display: block;
+        margin-top: 5px;
+    }
+
+    .review {
+        width: 20rem;
+        margin-left: 75px;
+        
+    }
+    .guru {
+        width: 20rem;
+        margin-left: 75px;
+        
+    }
+
+    .besttech {
+        width: 20rem;
+        margin-left: 75px;
+        
+    }
+
+
+    article {
+        
+        flex-direction: column;
+
+    }
+    .roberts {
+        margin-left: 6em;
+        margin-top: 15px;
+    }
+
+    .wallace {
+        margin-left: 6em;
+        margin-top:10px;
+    }
+
+
+ 
+
+   
+
+    
+
+
+
+    
+}
